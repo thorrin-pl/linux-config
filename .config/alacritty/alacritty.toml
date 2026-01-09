@@ -1,0 +1,78 @@
+[font]
+size = 11.0
+
+[font.normal]
+family = "Cascadia Code NF"
+style = "SemiLight"
+
+[font.bold]
+family = "Cascadia Code NF"
+style = "SemiBold"
+
+[font.italic]
+family = "Cascadia Code NF"
+style = "SemiLight Italic"
+
+[font.bold_italic]
+family = "Cascadia Code NF"
+style = "SemiBold Italic"
+
+[colors.primary]
+background = "#000000"
+foreground = "#cfd2d6"
+
+[colors.cursor]
+text = "#000000"
+cursor = "#cfd2d6"
+
+[colors.selection]
+text = "#000000"
+background = "#cfd2d6"
+
+[colors.normal]
+black   = "#000000"
+red     = "#ff5f5f"
+green   = "#5fd787"
+yellow  = "#ffd75f"
+blue    = "#5fafff"
+magenta = "#af87ff"
+cyan    = "#5fd7d7"
+white   = "#cfd2d6"
+
+[colors.bright]
+black   = "#5c5c5c"
+red     = "#ff8787"
+green   = "#87ffaf"
+yellow  = "#ffdf87"
+blue    = "#87bfff"
+magenta = "#cfa7ff"
+cyan    = "#87ffff"
+white   = "#ffffff"
+
+[window]
+opacity = 1.0
+startup_mode = "Maximized" # "Windowed" | "Maximized" | "Fullscreen"
+decorations = "None" # "Full" | "None"
+# decorations_theme_variant = "Dark" # "Dark" | "Light" | "None"
+
+
+[window.padding]
+x = 12
+y = 10
+
+[cursor]
+style = "Beam"
+unfocused_hollow = true
+
+[scrolling]
+history = 20000
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control|Shift"
+action = "Copy"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control|Shift"
+action = "Paste"
