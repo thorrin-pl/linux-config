@@ -1,7 +1,6 @@
 {
     "clipboard": "terminal",
-    "colorcolumn": 80,
-    "colorscheme": "solarized",
+    "colorscheme": "twilight",
     "mouse": false,
     "softwrap": true,
     "tabsize": 2,
