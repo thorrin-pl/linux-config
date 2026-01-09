@@ -75,7 +75,7 @@ num_history_items_recorded=60
 vfs_timeout=60
 ftpfs_directory_timeout=900
 ftpfs_retry_seconds=30
-fish_directory_timeout=900
+shell_directory_timeout=900
 editor_tab_spacing=8
 editor_word_wrap_line_length=72
 editor_option_save_mode=0
@@ -83,12 +83,12 @@ editor_backup_extension=~
 editor_filesize_threshold=64M
 editor_stop_format_chars=-+*\\,.;:&>
 mcview_eof=
-skin=dark
+skin=nicedark
 
 [Layout]
 output_lines=0
-left_panel_size=70
-top_panel_size=14
+left_panel_size=83
+top_panel_size=0
 message_visible=false
 keybar_visible=true
 xterm_title=true
@@ -100,8 +100,8 @@ vertical_equal=true
 horizontal_equal=true
 
 [Misc]
-timeformat_recent=%b %e %H:%M
-timeformat_old=%b %e  %Y
+timeformat_recent=%-d %b, %H:%M
+timeformat_old=%-d %b %Y
 ftp_proxy_host=gate
 ftpfs_password=anonymous@
 display_codepage=UTF-8
@@ -135,11 +135,11 @@ mouse_move_pages=true
 filetype_mode=true
 permission_mode=false
 torben_fj_mode=false
-quick_search_mode=2
+quick_search_mode=0
 select_flags=6
 
 [Panelize]
-Find *.orig after patching=find . -name \\*.orig -print
-Find SUID and SGID programs=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
-Find rejects after patching=find . -name \\*.rej -print
-Modified git files=git ls-files --modified
+Znajdź programy SUID i SGID=find . \\( \\( -perm -04000 -a -perm /011 \\) -o \\( -perm -02000 -a -perm /01 \\) \\) -print
+Znajdź pliki *.orig po łataniu=find . -name \\*.orig -print
+Znajdź odrzuty po łataniu=find . -name \\*.rej -print
+Modyfikowane pliki git=git ls-files --modified
