@@ -1,5 +1,9 @@
 {
     "clipboard": "terminal",
-    "colorscheme": "geany",
-    "tabsize": 2
+    "colorcolumn": 80,
+    "colorscheme": "solarized",
+    "mouse": false,
+    "softwrap": true,
+    "tabsize": 2,
+    "tabstospaces": true
 }
