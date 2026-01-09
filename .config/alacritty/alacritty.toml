@@ -67,12 +67,11 @@ unfocused_hollow = true
 [scrolling]
 history = 20000
 
-[[keyboard.bindings]]
-key = "C"
-mods = "Control|Shift"
-action = "Copy"
+[keyboard]
+bindings = [
+{ key = "N", 	mods = "Control|Shift", 	action = "CreateNewWindow" },
+{ key = "C", 	mods = "Control|Shift", 	action = "Copy" },
+{ key = "V", 	mods = "Control|Shift", 	action = "Paste" },
+{ key = "V", 	mods = "Control", 				action = "Paste" },
+]
 
-[[keyboard.bindings]]
-key = "V"
-mods = "Control|Shift"
-action = "Paste"
