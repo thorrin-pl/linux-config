@@ -115,6 +115,7 @@ RedHatEnterprise = "󱄛"
 Pop = ""
 
 [hostname]
+ssh_only = false
 style = "bold bg:color_bg0 fg:color_fg0"
 format = '[ $hostname ]($style)'
 
